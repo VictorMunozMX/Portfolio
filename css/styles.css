@@ -11418,6 +11418,13 @@ header.masthead .photo{
 	border-radius: 60px;
 	border: 5px solid white;
 }
+td {
+  padding: 0 10px;
+}
+td:before {
+  content: "• "; 
+  font-size: 1.5em; 
+}
 .photo-var{
 	margin: 2px;	
 	background-size: cover;
@@ -11428,6 +11435,11 @@ header.masthead .photo{
 	width: 350px;
 	height: 250px;
 	background-image: url("../assets/img/bg-Camosun.jpg");
+}
+.ptese{		
+	width: 350px;
+	height: 250px;
+	background-image: url("../assets/img/bg-tese.jpg");
 }
 .pvema{	
 	width: 350px;
